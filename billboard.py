@@ -52,13 +52,13 @@ results = sp.search(q="Burna Boy", type="artist", limit=1)
 
 
 sp = spotipy.Spotify(auth_manager=SpotifyOAuth(
-    client_id="bea112b912e645f78fa0bf4629cdccfa",
-    client_secret="6215811657a040dfa5d92fdc8724e88f",
+    client_id=, # <--YOUR SPOTIFY DEV CLIENT ID
+    client_secret=, # <--YOUR SPOTIFY DEV CLIENT SECRET KEY
     redirect_uri="https://example.com",
     scope="playlist-modify-private",
     show_dialog=True,
     cache_path=".cache",
-    username="Toyo",
+    username=, # <--YOUR SPOTIFY DISPLAY NAME
 ))
 
 user_id = sp.current_user()["id"]
