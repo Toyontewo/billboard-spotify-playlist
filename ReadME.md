@@ -4,7 +4,6 @@
 Automatically create a **Spotify playlist** of the Billboard Hot 100 songs for any past date!  
 This Python project scrapes the Billboard Hot 100 chart for a given date, searches Spotify for each track, and adds them to a private playlist in your Spotify account.
 
----
 
 ## Features
 - 📅 Select any date (YYYY-MM-DD) to “travel back in time”
@@ -13,7 +12,6 @@ This Python project scrapes the Billboard Hot 100 chart for a given date, search
 - 📝 Automatically create a private playlist in your Spotify account
 - ⏩ Add all found songs to the playlist in bulk
 
----
 
 ## Tech Stack
 - **Python 3.9+**
@@ -21,7 +19,6 @@ This Python project scrapes the Billboard Hot 100 chart for a given date, search
 - [Spotipy](https://spotipy.readthedocs.io/) – Spotify Web API client
 - [Requests](https://docs.python-requests.org/) – for fetching the Billboard page
 
----
 
 ## Getting Started
 
@@ -77,7 +74,6 @@ Then:
 4. **Playlist Creation**
    Creates a private playlist in your Spotify account and adds all found URIs in batches of 100.
 
----
 
 ##  Scopes & Permissions
 
