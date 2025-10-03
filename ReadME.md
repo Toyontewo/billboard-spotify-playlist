@@ -81,3 +81,7 @@ The project uses the following scope:
 
 * `playlist-modify-private` → needed to create and edit private playlists.
 
+## Screenshots
+![Phone SS](https://github.com/Toyontewo/billboard-spotify-playlist/blob/main/img/phonep.png)
+![Laptop SS](https://github.com/Toyontewo/billboard-spotify-playlist/blob/main/img/codep.png)
+
